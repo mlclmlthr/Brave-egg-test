@@ -8,3 +8,7 @@ document.querySelectorAll('.nav_list li a').forEach(item => {
       this.classList.add('active');
     });
   });
+
+  document.querySelector('.hamburger').addEventListener('click', function() {
+    document.querySelector('.nav_container').classList.toggle('show');
+});
